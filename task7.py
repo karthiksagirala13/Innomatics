@@ -13,7 +13,7 @@ if "messages" not in st.session_state:
     ]
 
 # Initialize API Key
-api_key = "AIzaSyBvCQeOuEJRW5i75HzyW6X_xJIh79ktez8"  # Replace with your actual API key or use secrets
+api_key = key  # Replace with your actual API key or use secrets
 
 # Initialize Chat Model
 chat_model = ChatGoogleGenerativeAI(google_api_key=api_key, model='models/gemini-2.0-flash-exp')
