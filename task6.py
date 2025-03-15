@@ -5,7 +5,7 @@ from langchain_core.output_parsers import StrOutputParser
 
 
 # Secure API key handling
-api_key = 'AIzaSyBvCQeOuEJRW5i75HzyW6X_xJIh79ktez8'  # Store in .streamlit/secrets.toml
+api_key = key  # Store in .streamlit/secrets.toml
 
 # System prompt for travel recommendations
 
