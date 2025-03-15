@@ -4,7 +4,7 @@ from IPython.display import display, Markdown
 
 
 
-key = 'AIzaSyBvCQeOuEJRW5i75HzyW6X_xJIh79ktez8'
+
 genai.configure(api_key=key)
 system_prompt = """You are a Python code reviewer. Identify bugs and provide fixed code. you should analyze the submitted code and identify potential bugs, errors, or areas of improvement.
 you should also provide the fixed code snippets.
